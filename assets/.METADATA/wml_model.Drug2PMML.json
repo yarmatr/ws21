@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "name": "Drug 2 PMML",
+    "tags": [],
+    "asset_type": "wml_model",
+    "origin_country": "us",
+    "created_at": "2021-06-18T01:09:41Z",
+    "created": 1623978581375,
+    "asset_id": "wml_model.Drug2PMML",
+    "asset_attributes": [
+      "wml_model"
+    ]
+  },
+  "entity": {
+    "wml_model": {
+      "ml_version": "4.0.2",
+      "tags": [],
+      "software_spec": {
+        "base_id": "390d21f8-e58b-4fac-9c55-d7ceda621326"
+      },
+      "type": "pmml_4.3",
+      "schemas": {
+        "input": [
+          {
+            "id": "in_1",
+            "fields": [
+              {
+                "name": "AGE",
+                "type": "double"
+              },
+              {
+                "name": "BP",
+                "type": "string"
+              },
+              {
+                "name": "CHOLESTEROL",
+                "type": "string"
+              },
+              {
+                "name": "K",
+                "type": "double"
+              },
+              {
+                "name": "NA",
+                "type": "double"
+              },
+              {
+                "name": "SEX",
+                "type": "string"
+              }
+            ]
+          }
+        ],
+        "output": [
+          {
+            "id": "out_1",
+            "fields": [
+              {
+                "name": "DRUG",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "attachments": [
+    {
+      "name": "native",
+      "asset_type": "wml_model",
+      "user_data": {
+        "content_format": "native"
+      },
+      "created_at": "2021-06-18T01:09:41Z",
+      "id": "28e99008-94c4-4eb3-a21a-fa96f6e75f79",
+      "is_managed": true,
+      "is_referenced": false,
+      "is_remote": false,
+      "transfer_complete": true
+    }
+  ]
+}
